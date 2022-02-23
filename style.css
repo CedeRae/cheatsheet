@@ -1,13 +1,33 @@
-h1,
-p{
+img{
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+
+}
+
+header{
     text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+table{
+    margin: 0 auto;
 }
 
 th{
     text-align: center;
+    
+    border-top: dotted black;
+    border-right: dotted black;
 }
 
 th,
 td{
-    border: solid;
+
+    border-bottom: dotted black;
+    border-right: dotted black
 }
