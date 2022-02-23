@@ -1,0 +1,13 @@
+h1,
+p{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}
+
+th,
+td{
+    border: solid;
+}
