@@ -1,17 +1,15 @@
-img{
-    height: 400px;
-    width: 800px;
+h1{
+    background-color: white;
+    color: black;
     margin: 0 auto;
-    padding-top: 100px;
-
+    top: 100px;
+    text-align: center;
+    border: solid rgb(3, 138, 138) 4px;
 }
 
-header{
+p{
     text-align: center;
-    background-color: black;
-    color: white;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
+    font-weight: bold;
 }
 
 table{
@@ -20,9 +18,9 @@ table{
 
 th{
     text-align: center;
-    
     border-top: dotted black;
     border-right: dotted black;
+    font-weight: bold;
 }
 
 th,
