@@ -6,6 +6,9 @@
         <meta name="'viewpoint" content="width=device-width, initial-scale=0.1">
         <title>CSS Styles Cheat-Sheet</title>
         <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -14,42 +17,36 @@
         </header>
 
         <main>
-            <p>In this document I will list common css syntax and their uses.</p>
+            <p>In this table I will list common css syntax related to poistioning.</p>
             <table>
                 <thead>
                     <th colspan="1">syntax</th>
                     <th colspan="1">defined</th>
-                    <th colspan="1">inputs</th>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>margin: 0 auto;</td>
-                        <td>horizontally centers an element inside of its parent content area if it has a width.</td>
-                        <td> margin-(top, left, bottom, right):
-                            <br>
-                            margin: 0px 0px;
-                            <br>
-                            margin: 0px 0px 0px 0px;
-                            <br>
-                            margin: 0 auto;</td>
+                        <td>position: fixed;</td>
+                        <td>When a CSS position is set to <strong>fixed</strong>, it is set/pinned to a specific spot on a page.</td>
+                    </tr>
+                    <tr>
+                        <td>position: relative;</td>
+                        <td>The value <strong>relative</strong> of the CSS <strong>position</strong> property enables an element to be positioned relative to where it would have originally been on a web page.</td>
+                    </tr>
+                    <tr>
+                        <td>position: absolute;</td>
+                        <td>The value <strong>absolute</strong> enables an element to ignore sibling elements and instead be positioned relatives to its closest parent element this is positioned with <strong>relative</strong> or <strong>absolute</strong>.</td>
                     </tr>
                     <tr>
                         <td>overflow: </td>
-                        <td>This property can be set to <em>display</em>, <em>hide</em>, or <em>scroll</em>, and dictates how HTML will render content that overflows its parent's content area.</td>
-                        <td>overflow: scroll; (make overflow content viewable via scroll bars
-                            <br>
-                            overflow: hidden; (overflow content will be hidden from view)
-                            <br>
-                            overflow: visible; (default value)
-                        </td>
+                        <td>This property can be set to <strong>display</strong>, <strong>hide</strong>, or <strong>scroll</strong>, and dictates how HTML will render content that overflows its parent's content area.</td>
                     </tr>
                     <tr>
                         <td>visibility</td>
-                        <td>The <em>visibility</em>property can hide or show elements.</td>
-                        <td>visibility: hidden; </td>
+                        <td>The <strong>visibility</strong> property can hide or show elements.</td>
                     </tr>
                 </tbody>
             </table>
+            
         </main>
     </body>
 </html>
